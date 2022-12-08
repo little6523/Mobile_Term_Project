@@ -1,0 +1,49 @@
+* {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    width: 1000px;
+    display: flex;
+
+    margin: auto;
+
+    margin-bottom: 30px;
+}
+
+#header * {
+    display: inline-block;
+    text-align: center;
+}
+
+#Date_Weather {
+    width: 333px;
+}
+
+#main-logo {
+    width: 334px;
+}
+
+#schedule {
+    width: 333px;
+}
+
+#navigation {
+    width: 1115px;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin: auto;
+
+    margin-bottom: 30px;
+
+    border-bottom: 1px solid;
+}
+
+.navigation-btn {
+    width: 200px;
+
+    text-align: center;
+}

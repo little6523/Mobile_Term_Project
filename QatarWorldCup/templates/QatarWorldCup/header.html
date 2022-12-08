@@ -1,0 +1,18 @@
+{% load static %}
+
+<script src="{% static './QatarWorldCup/Script.js' %}"></script>
+
+<div id="header">
+    <span id="Date_Weather">
+        <div id="NowDate">
+            <script>getDateNow()</script>
+        </div>
+        <div id="Weather">
+            <iframe src="https://forecast.io/embed/#lat=36.8256&lon=127.1408&name=천안&color=&font=&units=si"
+            frameborder="0" width="100%" height="200px"></iframe>
+        </div>
+    </span>
+    <span id="main-logo"><a href=""><img src="{% static './img/QatarWorldCupLogo.jfif' %}"
+            width="150" height="150"></a></span>
+    <span id="schedule"><a href="#">간단한경기일정(네이버)</a></span>
+</div>

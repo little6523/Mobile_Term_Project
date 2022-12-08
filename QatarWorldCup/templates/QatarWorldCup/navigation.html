@@ -1,0 +1,11 @@
+{% load static %}
+
+{% block navigation %}
+<link rel="stylesheet" href="{% static 'QatarWorldCup/MainPage.css' %}">
+<div id="navigation">
+    <span class="navigation-btn"><a href="{% url 'QatarWorldCup:Intro' %}">개최국 소개</a></span>
+    <span class="navigation-btn"><a href="#">월드컵 역사</a></span>
+    <span class="navigation-btn"><a href="#">조편성 및 경기 결과</a></span>
+    <span class="navigation-btn"><a href="#">자유게시판</a></span>
+</div>
+{% endblock %}
